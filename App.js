@@ -81,7 +81,6 @@ const App = () => {
         credentials: 'same-origin',
         body: formData
       });
-      console.log(result);
       if (result) {
         Alert.alert('Data upload successfully')
       }
